@@ -1,0 +1,156 @@
+<html>
+    <head>
+			<title>Weird Baseball Mascot Quiz</title>
+			<!-- Bootstrap link   -->
+			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+			<!-- Local CSS link -->
+			<link rel="stylesheet" href="../static/css/style.css?q={{time}}">
+			<!-- Google Font -->
+			<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap" rel="stylesheet"> 
+			<!-- Favicon -->
+			<link rel="icon" href="../static/images/favicon.png" type="image/x-icon">
+    </head>
+    <body class="d-flex flex-column min-vh-100">
+      <div class="container">
+				<img id="mudonna" src="../static/images/mudonna.jpg">
+				<div class="row">
+					<h1>What weird minor league baseball mascot matches your aesthetic?</h1>
+				</div>
+				
+				<!-- START OF FORM -->
+				<form method="post" action="/results">
+				
+				<div class="row">
+					<!-- NAME INPUT -->
+					<div class="card" style="width: 18rem;">
+					  <div class="card-body">
+					    <h5 class="card-title">What is your name?</h5>
+					    <p class="card-text">
+								Enter your name:
+								<input type="text" name="name" placeholder="First name">
+							</p>
+							<img id="hitter" src="../static/images/baseball.png">
+					  </div>
+					</div>
+						
+					
+					<!-- 	PICK A COLOR -->
+					<div class="card" style="width: 18rem;">
+					  <div class="card-body">
+					    <h5 class="card-title">Pick a color</h5>
+					    <p class="card-text">
+								<input type="radio" name="color" value="blue"/>
+								<label for="blue">Blue</label><br>
+								<input type="radio" name="color" value="purple"/>
+								<label for="purple">Purple</label><br>
+								<input type="radio" name="color" value="silver"/>
+								<label for="silver">Silver</label><br>
+								<input type="radio" name="color" value="yellow"/>
+								<label for="yellow">Yellow</label><br><br>
+							</p>
+					  </div>
+					</div>
+					
+						<!-- 	PICK A PIZZA TOPPING -->
+					<div class="card" style="width: 18rem;">
+					  <div class="card-body">
+					    <h5 class="card-title">Pick a pizza topping</h5>
+					    <p class="card-text">
+								<input type="radio" name="pizza" value="pepperoni"/>
+								<label for="pepperoni">Pepperoni</label></br>
+								<input type="radio" name="pizza" value="banana peppers"/>
+								<label for="banana peppers">Banana Peppers</label><br>
+								<input type="radio" name="pizza" value="pineapple"/>
+								<label for="pineapple">Pineapple</label><br>
+								<input type="radio" name="pizza" value="anything"/>
+								<label for="anything">Anything!</label><br><br>
+							</p>
+					  </div>
+					</div>
+				<!-- END ROW -->
+				</div>
+
+
+				<!-- START ROW -->
+				<div class="row">
+
+						<!-- PICK AN ANIMAL -->
+						<div class="card" style="width: 18rem;">
+					  <div class="card-body">
+					    <h5 class="card-title">Pick an animal</h5>
+					    <p class="card-text">
+								<input type="radio" name="animal" value="shark"/>
+								<label for="shark">Shark</label><br>
+								<input type="radio" name="animal" value="red panda"/>
+								<label for="red panda">Red Panda</label><br>
+								<input type="radio" name="animal" value="giraffe"/>
+								<label for="giraffe">Giraffe</label><br>
+								<input type="radio" name="animal" value="narwhal"/>
+								<label for="narwhal">Narwhal</label><br><br>
+							</p>
+					  </div>
+					</div>
+						
+						
+	
+						<!-- PICK A SCHOOL SUBJECT -->
+						<div class="card" style="width: 18rem;">
+					  <div class="card-body">
+					    <h5 class="card-title">Pick a school subject</h5>
+					    <p class="card-text">
+								<input type="radio" name="subject" value="science"/>
+								<label for="science">Science</label><br>
+								<input type="radio" name="subject" value="language arts"/>
+								<label for="language arts">Language Arts</label><br>
+								<input type="radio" name="subject" value="theatre"/>
+								<label for="theatre">Theatre</label><br>
+								<input type="radio" name="subject" value="lunch"/>
+								<label for="lunch">Lunch</label><br><br>
+							</p>
+					  </div>
+					</div>
+						
+					
+	
+						<!-- PICK A BOOK GENRE -->
+						<div class="card" style="width: 18rem;">
+					  <div class="card-body">
+					    <h5 class="card-title">Pick a book genre</h5>
+					    <p class="card-text">
+								<input type="radio" name="book" value="mystery"/>
+								<label for="mystery">Mystery</label><br>
+								<input type="radio" name="book" value="fantasy"/>
+								<label for="fantasy">Fantasy</label><br>
+								<input type="radio" name="book" value="non-fiction"/>
+								<label for="non-fiction">Non-Fiction</label><br>
+								<input type="radio" name="book" value="satire"/>
+								<label for="satire">Satire</label><br><br>
+							</p>
+					  </div>
+					</div>
+					
+				<!-- END ROW 2 -->
+				</div>
+			
+
+      		<div id="submit">
+						<input type="submit" value="Submit"/>
+					</div>      
+			
+				<!-- END OF FORM -->
+				</form>
+				
+			<!-- END CONTAINER -->
+			</div>
+				
+			<!-- FOOTER WITH DATE -->
+			<footer class="footer mt-auto py-3">
+				<p>Today is {{date}}</p>
+			</footer>
+
+
+			<!-- 	Bootstrap Bundle -->
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>

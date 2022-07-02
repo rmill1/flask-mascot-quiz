@@ -1,0 +1,91 @@
+body {
+	background-color: #9EC2FF;
+	font-family: 'Rubik', sans-serif;
+	font-size: 24px;
+}
+
+footer{
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	background-color: #03018C;
+}
+
+.row {
+	width: 90%;
+	margin: 1% auto;
+}
+
+.card {
+	width: auto;
+	margin: 1% auto;
+	height: auto;
+}
+
+.results {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Fascinate', sans-serif;
+	font-size: 48px;
+	margin-top: 2%;
+}
+
+img {
+	margin: 2% auto;
+}
+
+.card-title {
+	font-weight:bold;
+}
+
+#submit {
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+input[type=text]{
+	width: 100%;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#EBEBEB; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+		font-size: 24px;
+		font-family: 'Rubik', sans-serif;
+		text-align: center;
+}
+
+input[type=submit]:hover {
+	background: #03018c;
+	color: white;
+}
+
+p {
+	font-style: bold;
+}
+
+#mudonna {
+	width: 20%;
+	height: auto;
+	display: block;
+	margin: 2% auto;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px black;
+}
+
+#hitter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label:hover {
+	font-weight: bolder;
+}

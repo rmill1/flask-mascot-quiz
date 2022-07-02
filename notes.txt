@@ -1,0 +1,23 @@
+Project planning
+
+Quiz: What obscure minor league baseball mascot matches your aesthetic?
+
+Pick an color
+Pick an animal
+Pick a pizza topping
+Pick a travel location
+Pick a school subject
+Pick a genre of books to read
+
+
+
+Savannah Bananas - yellow, giraffe, banana peppers, language arts, satire
+Albuquerque Isotopes - silver, shark, pineapple, science, non-fiction
+Rocket City Trash Pandas - blue, red panda, everything, lunch, mystery
+Akron Rubber Ducks
+Utica Unicorns - purple, narwhal, pepperoni, theatre, fantasy
+Binghamton Rumble Ponies
+Carolina Disco Turkeys
+
+
+Footer ref to stay at bottom --> https://radu.link/make-footer-stay-bottom-page-bootstrap/
